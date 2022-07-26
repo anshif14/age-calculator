@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cinzel;
+    
+
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 450px;
+    margin:auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow:inset rgb(111, 0, 255) 2px 2px 10px;
+    box-shadow: rgb(85, 0, 255) 2px 2px 10px ;  
+    font-family: cinzel;
+
+          
+}
+input{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-family: cinzel;
+
+}
+.date{
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    
+}
+.date div {
+    padding: 10px;
+    
+}
+.date div input{
+    border-radius: 10px;
+    border: none;
+    font-family: cinzel;
+    
+    box-shadow: blue inset 2px 2px 6px ;
+    box-shadow: blue 2px 2px 6px;
+    font-size: 40px;
+}
+hr{
+    height: 5px;
+    width: 300px;
+    margin-left: 80px;
+    background-color: blue;
+}
+.age{
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+
+
+}
+button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: rgb(98, 0, 255);
+    background:linear-gradient(rgba(0, 0, 255, 0.483),rgba(120, 3, 120, 0.237));
+    border-radius: 20px;
+    font-size: 20px;
+}
+button:hover{
+    transition: 0.3s ease;
+    transform: scale(1.2)
+}
